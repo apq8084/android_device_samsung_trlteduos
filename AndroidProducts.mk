@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_trlteduos.mk
+    $(LOCAL_DIR)/havoc_trlteduos.mk
