@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_trlteduos.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_trlteduos-user \
+    lineage_trlteduos-userdebug \
+    lineage_trlteduos-eng
