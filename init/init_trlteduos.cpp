@@ -101,7 +101,7 @@ void vendor_load_properties()
         for (const auto &source : ro_product_props_default_source_order) {
             set_ro_product_prop(source, "fingerprint", "samsung/trlteduoszc/trltechn:6.0.1/MMB29M/N9100ZCS1DQH1:user/release-keys");
             set_ro_product_prop(source, "model", "SM-N9100");
-            set_ro_product_prop(source, "device", "trlteduoszc");
+            set_ro_product_prop(source, "device", "trltechn");
             set_ro_product_prop(source, "name", "trlteduoszc");
         }
         property_override("ro.build.description", "trlteduoszc-user 6.0.1 MMB29M N9100ZCS1DQH1 release-keys");
