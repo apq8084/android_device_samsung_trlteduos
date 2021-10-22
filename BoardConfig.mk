@@ -18,6 +18,9 @@ include device/samsung/trlte-common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := trltechn,trltechnzh,trlteduos,trlteduosctc,trlteduoszc,trlteduoszh,trlteduoszn
 
+# Fingerprint
+BUILD_FINGERPRINT := samsung/trlteduoszh/trltechnzh:6.0.1/MMB29M/N9100ZHU1DQG1:user/release-keys
+
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_trlte_chnduos_defconfig
 
