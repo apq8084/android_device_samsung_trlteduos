@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The havocOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_trlteduos.mk
+    $(LOCAL_DIR)/havoc_trlteduos.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_trlteduos-user \
-    lineage_trlteduos-userdebug \
-    lineage_trlteduos-eng
+    havoc_trlteduos-user \
+    havoc_trlteduos-userdebug \
+    havoc_trlteduos-eng
